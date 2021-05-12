@@ -143,3 +143,65 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+@media (max-width: 768px) {
+  body {
+    height: 1740px;
+    width: 768px;
+    min-width: 0vh;
+    min-height: 0vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-top: 150px;
+  }
+
+  .left {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .right {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    height: 1740px;
+    width: 425px;
+    min-width: 0vh;
+    min-height: 0vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-top: 150px;
+  }
+
+  .left {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .right {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
